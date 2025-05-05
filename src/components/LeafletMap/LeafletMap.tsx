@@ -51,7 +51,7 @@ const LeafletMap = memo(function Velmap(props: IProps) {
         >
           {isVelMosaicChecked && (
             <img
-              src="/images/velocity_colorbar.png"
+              src="images/velocity_colorbar.png"
               alt="Vertical Velocity Colorbar"
               style={{ zIndex: 700 }}
               className="absolute right-2 bottom-8 w-[70px] rounded-md"
